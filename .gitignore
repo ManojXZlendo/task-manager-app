@@ -1,0 +1,35 @@
+# Ignore Node.js dependencies for task-manager-frontend and task-manager-backend
+task-manager-frontend/node_modules/
+task-manager-backend/node_modules/
+
+# Ignore build output for task-manager-frontend (React)
+task-manager-frontend/build/
+task-manager-frontend/dist/
+
+# Ignore logs
+task-manager-frontend/npm-debug.log*
+task-manager-backend/npm-debug.log*
+*.log
+
+# Ignore environment files
+task-manager-frontend/.env
+task-manager-backend/.env
+
+# Ignore editor and system files
+.DS_Store
+.vscode/
+.idea/
+
+# Ignore cache and artifacts
+task-manager-frontend/.next/
+task-manager-frontend/.cache/
+task-manager-frontend/.parcel-cache/
+
+# Ignore TypeScript artifacts (if applicable)
+task-manager-frontend/dist/
+task-manager-backend/dist/
+*.tsbuildinfo
+
+# Ignore general temporary files
+*.tmp
+*.swp
